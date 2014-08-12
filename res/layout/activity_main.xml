@@ -5,8 +5,11 @@
     tools:context="${packageName}.${activityClass}" >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:id="@+id/counterText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="100dip"
+        android:text="0" />
 
 </RelativeLayout>
