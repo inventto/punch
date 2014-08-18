@@ -1,3 +1,3 @@
 PUNCH
 ===
-A punch counter.
+A punch counter with android and MSP430.
